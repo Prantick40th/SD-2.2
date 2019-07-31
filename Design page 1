@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F37185"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   2<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="40dp">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Button 1"
+        android:textSize="15dp"
+        android:background="#BB6EC9"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#7AC0DF"
+            android:text="Button 2"
+            android:textSize="15dp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#E6DC8A"
+            android:text="Button 3"
+            android:textSize="15dp" />
+    </LinearLayout>2
+.
+   3 <LinearLayout
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#E69881"
+            android:text="Button 4"
+            android:textSize="15dp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:background="#DFEB2190"
+            android:text="Button 5"
+            android:textSize="15dp" />
+    </LinearLayout>5
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android Lab"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold">
+    </TextView>
+
+
+
+    1<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        android:orientation="horizontal"
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="150dp"
+        android:src="@drawable/android_logo"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="10dp"/>
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="150dp"
+        android:src="@drawable/android3d"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+    </LinearLayout>1
+.
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ARIGATO SAYONARA"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="5dp"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold">
+    </TextView>
+
+</LinearLayout>
